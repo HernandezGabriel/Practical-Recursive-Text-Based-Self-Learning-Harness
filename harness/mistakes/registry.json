@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "last_updated": "2026-10-31",
+  "mistakes": [
+    {
+      "id": "PS-001",
+      "recipe": "powershell_conventions",
+      "mistake": "Used `ls -la` in PowerShell terminal",
+      "root_cause": "Linux shell muscle memory; PowerShell `ls` alias does not accept `-la` flag",
+      "fix": "Use `Get-ChildItem -Force` or `ls` without flags",
+      "sessions_affected": 1,
+      "resolved": true,
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31"
+    }
+  ],
+  "guidance": "Before each session, review this registry and the linked recipe's Common Mistakes table to avoid repeating errors."
+}
