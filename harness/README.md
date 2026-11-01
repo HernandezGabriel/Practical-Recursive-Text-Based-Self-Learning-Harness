@@ -12,6 +12,8 @@ It lives in this workspace and travels with it.
 5. **Auto-heal.** If a common mistake occurs during this session, add it to the registry and update the relevant recipe's "Common Mistakes" section so the next session avoids it.
 6. **Only edit the harness when needed.** Do not make gratuitous changes. Every edit must be justified.
 7. **Commit after every harness change.** After any harness file is edited (README, recipes, registry, state, changelog), commit the change to git immediately with a descriptive message. Do not batch multiple unrelated harness edits without committing each.
+8. **Friction triggers harness review.** If friction is faced (tool errors, setup issues, unexpected failures), do a light harness review after the main objective is completed. Consider updating an existing recipe, adding a new recipe, or adjusting harness rules so the friction is avoided next time.
+9. **Always report files changed / commits pushed.** After the main objective is complete, report which files were changed and which commits were pushed. If nothing changed, say simply: "no files changed."
 
 ## Folder Layout
 
