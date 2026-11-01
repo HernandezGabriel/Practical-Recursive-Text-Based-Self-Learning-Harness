@@ -3,7 +3,8 @@
   "created": "2026-10-31",
   "last_session": null,
   "active_recipes": [
-    "powershell_conventions"
+    "powershell_conventions",
+    "git_conventions"
   ],
   "auto_healing_enabled": true,
   "fixes_applied": [
