@@ -22,5 +22,5 @@
       ]
     }
   ],
-  "notes": "LLM must report harness changes only after completing the main objective, and only if harness files were actually modified. Standing instruction: commit every harness change to git immediately after editing. Friction triggers harness review. Always report files changed / commits pushed (or 'no files changed' if none)."
+  "notes": "LLM must report harness changes only after completing the main objective, and only if harness files were actually modified. Standing instruction: commit AND push every harness change to git immediately after editing. Friction triggers harness review. Always report files changed / commits pushed (or 'no files changed' if none)."
 }
