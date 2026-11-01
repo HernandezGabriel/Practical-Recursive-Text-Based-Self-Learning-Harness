@@ -1,0 +1,18 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+keygen_output.txt
+
+# Specs / scratch
+specs.txt
+github_repos.txt
+github_repos.json
+gen_ssh_key.ps1
+gen_ssh.bat
+
+# Editor
+.vscode/
+.idea/

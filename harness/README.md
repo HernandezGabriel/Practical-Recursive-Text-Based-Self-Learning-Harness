@@ -1,7 +1,10 @@
-# VS Code LLM Harness — Auto-Improving Text-Based System
+# Practical Recursive Text-Based Self-Learning Harness
 
 This is a simplistic, text-based harness that helps the LLM agent improve itself across sessions.
 It lives in this workspace and travels with it.
+
+## Purpose
+Recursive self-improvement: the LLM reads its own recipes and mistakes registry before working, avoids known mistakes, records new friction as harness updates, and commits every harness change to git.
 
 ## Core Operating Rules (read before every session)
 
