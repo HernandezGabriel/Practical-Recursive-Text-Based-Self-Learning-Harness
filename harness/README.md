@@ -11,6 +11,7 @@ It lives in this workspace and travels with it.
 4. **Report harness changes only if files changed.** After the main objective is done, state explicitly what harness files were edited and why — but only if the harness was actually modified. Do not put this before the main work, and do not report if nothing changed.
 5. **Auto-heal.** If a common mistake occurs during this session, add it to the registry and update the relevant recipe's "Common Mistakes" section so the next session avoids it.
 6. **Only edit the harness when needed.** Do not make gratuitous changes. Every edit must be justified.
+7. **Commit after every harness change.** After any harness file is edited (README, recipes, registry, state, changelog), commit the change to git immediately with a descriptive message. Do not batch multiple unrelated harness edits without committing each.
 
 ## Folder Layout
 
