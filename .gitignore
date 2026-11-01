@@ -19,3 +19,5 @@ gen_ssh.bat
 # Editor
 .vscode/
 .idea/
+# Nested project repo
+raffleup/
