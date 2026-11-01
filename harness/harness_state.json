@@ -1,11 +1,12 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "created": "2026-10-31",
-  "last_session": null,
+  "last_session": "2026-11-01",
   "repo_name": "Practical-Recursive-Text-Based-Self-Learning-Harness",
   "active_recipes": [
     "powershell_conventions",
-    "git_conventions"
+    "git_conventions",
+    "workspace_layout"
   ],
   "auto_healing_enabled": true,
   "fixes_applied": [
@@ -19,6 +20,18 @@
         "harness/mistakes/registry.json",
         "harness/harness_state.json",
         "harness/CHANGELOG.md"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "change": "Moved shelf files into .scratch/ and documented workspace layout convention",
+      "files": [
+        ".gitignore",
+        "harness/README.md",
+        "harness/recipes/workspace_layout.md",
+        "harness/harness_state.json",
+        "harness/CHANGELOG.md",
+        "AGENTS.md"
       ]
     }
   ],

@@ -1,5 +1,12 @@
 # Harness Changelog
 
+## v1.0.2 — 2026-11-01
+- Moved shelf/scratch files from workspace root into `.scratch/` (gitignored).
+- Added `harness/recipes/workspace_layout.md` documenting clean-root convention.
+- Updated `harness/README.md` with Workspace Layout section.
+- Updated `.gitignore` to ignore `.scratch/`.
+- Updated `AGENTS.md` bootstrap version and scratch-dir note.
+
 ## v1.0.0 — 2026-10-31
 - Initial scaffold created.
 - Added `harness/README.md` with core operating rules.

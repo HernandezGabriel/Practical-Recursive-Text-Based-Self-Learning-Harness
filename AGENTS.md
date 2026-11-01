@@ -15,7 +15,8 @@ If the user asks you to build something or write code:
 Projects from earlier chat sessions may already exist as folders here; the
 user may refer back to them. Never assume loose files in this directory
 belong to the current conversation, and keep new work inside a named folder
-rather than at the top level.
+rather than at the top level. Ad-hoc / scratch files go in `.scratch/`
+(gitignored).
 
 ---
 
@@ -26,10 +27,10 @@ Before doing any work in this session, read:
 
 1. `harness/README.md` — harness rules and folder layout
 2. `harness/mistakes/registry.json` — known mistakes to avoid
-3. Active recipes under `harness/recipes/` (see `harness/harness_state.json` for the active list: `powershell_conventions`, `git_conventions`)
+3. Active recipes under `harness/recipes/` (see `harness/harness_state.json` for the active list: `powershell_conventions`, `git_conventions`, `workspace_layout`)
 
 Follow the harness operating rules: check recipes first, avoid known mistakes,
 complete the main objective, then report any harness changes and commit + push
 them to git immediately if any harness files were modified.
 
-Harness state: version 1.0.1, auto-healing enabled.
+Harness state: version 1.0.2, auto-healing enabled.

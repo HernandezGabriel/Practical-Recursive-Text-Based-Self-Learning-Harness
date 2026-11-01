@@ -13,6 +13,9 @@ github_repos.json
 gen_ssh_key.ps1
 gen_ssh.bat
 
+# Scratch / shelf files (ad-hoc, not part of any project)
+.scratch/
+
 # Encrypted token (never commit)
 .github/
 

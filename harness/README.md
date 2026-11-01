@@ -31,6 +31,10 @@ harness/
 └── CHANGELOG.md           # Log of harness edits made by the LLM
 ```
 
+## Workspace Layout (outside harness)
+- Root should stay clean: `AGENTS.md`, `.gitignore`, `harness/`, project folders, standard dotfiles.
+- Ad-hoc / shelf files go in `.scratch/` (gitignored). See recipe `workspace_layout`.
+
 ## How Auto-Healing Works
 
 - During a session, if the LLM catches itself making (or about to make) a known mistake, it records it in `mistakes/registry.json`.
