@@ -13,6 +13,9 @@ github_repos.json
 gen_ssh_key.ps1
 gen_ssh.bat
 
+# Encrypted token (never commit)
+.github/
+
 # Editor
 .vscode/
 .idea/
